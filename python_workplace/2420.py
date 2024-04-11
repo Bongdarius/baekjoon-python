@@ -1,2 +1,7 @@
-git config --global user.name "Bongdarius"
-git config --global user.email okuo94@gnu.ac.kr
+a = input().split(" ");
+a_1 = int(a[0]);
+a_2 = int(a[1]);
+
+b = a_1 - a_2;
+
+print(abs(b));

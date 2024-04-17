@@ -1,0 +1,5 @@
+zfill() 메서드 사용
+
+for i in range(1, 10):
+    number_str = str(i).zfill(2)
+    print(number_str)

@@ -30,7 +30,7 @@ def find_min_rooms(location):
     while rooms < location:
         rooms += layer * 6  # 다음 층의 방의 개수를 계산합니다.
         layer += 1
-    
+        
     return layer
 
 location = int(input())
